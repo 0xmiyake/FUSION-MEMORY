@@ -15,12 +15,12 @@ const createNav = () => {
             <img src="./images/nav-image.jpg" alt="">
         </div>
             <ul>
-                <li><a href="">home</a></li>
-                <li><a href="">about</a></li>
-                <li><a href="">news</a></li>
-                <li><a href="">shop</a></li>
-                <li><a href="">access</a></li>
-                <li><a href="">contact</a></li>   
+                 <li><a href="./index.html">home</a></li>
+                 <li><a href="./about.html">about</a></li>
+                 <li><a href="./news.html">news</a></li>
+                 <li><a href="./shop.html">shop</a></li>
+                 <li><a href="./access.html">access</a></li>
+                 <li><a href="./contact.html">contact</a></li>   
             </ul>
     </div>
 
