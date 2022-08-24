@@ -1,0 +1,39 @@
+
+
+.access-contents {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.access-textbox  {
+    margin-left: 30px;
+}
+
+.access-maintext {
+    margin: 30px;
+}
+
+.access-textbox h3 {
+    font-size: 32px;
+
+}
+
+.info {
+    font-size: 23px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info h4 {
+    width: 80px;
+}
+
+.info span {
+    margin: 0 20px;
+}
+
+.access-p  {
+    padding-bottom: 20px;
+}
+

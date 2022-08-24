@@ -1,0 +1,48 @@
+
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 65px 65px 65px 200px;
+    max-width: 500px;
+    gap: 4px;
+    margin: 0 auto;
+
+
+}
+
+.Form-Item-Input {
+    background-color: var(--tableColor);
+    border: none;
+    font-size: 24px;
+    color: var(--mainTextColor);
+    padding-left: 10px;
+    outline: none;
+}
+
+.message {
+    resize: none;
+    width:500px;
+    height:200px;
+}
+
+.contact-send {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-C {
+    width: 400px;
+    background-color: var(--tableColor);
+    color: var(--mainTextColor);
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.btn-C:hover {
+    background-color: var(--subTextYellow);
+    color: var(--tableColor);
+}
+

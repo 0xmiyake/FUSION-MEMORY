@@ -1,0 +1,29 @@
+
+
+@media screen and (max-width: 480px) {
+
+/* ======================top======================= */
+
+
+    .top-image {
+        display: none;
+    }
+
+    .top {
+        /* width: 100vh; */
+        margin: 0;
+        padding: 0;
+        background-image: url(/Users/miyakesaki/HTML/homework/Last/images/top-image.jpg);
+        background-size: cover;
+        background-position: center 0;
+    }
+
+
+    /* ======================about======================= */
+
+
+    .about-conteiner p {
+        width: 100vw;
+
+    }
+}

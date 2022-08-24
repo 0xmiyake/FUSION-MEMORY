@@ -1,0 +1,41 @@
+
+
+/* =====================nav======================== */
+
+.nav-container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 3vw;
+    position: fixed;
+
+}
+
+.nav-image {
+    width: 75px;
+    height: 75px;
+    padding-left: 2vw;
+}
+
+.nav-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav-container ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container ul li {
+    padding: 0 2vw;
+}
+
+.nav-container ul li a {
+    font-size: 1.2em;
+    text-transform: capitalize;
+    color: #fff;
+}
+

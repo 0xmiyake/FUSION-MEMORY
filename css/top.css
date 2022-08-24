@@ -1,0 +1,416 @@
+
+
+/* ======================top======================= */
+
+.top-conteiner {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+
+}
+
+.top-image {
+    width: 50%;
+    height: 100vh;
+
+}
+
+.top-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.top-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 440px;
+
+}
+
+.top-textbox {
+
+    text-align: center;
+    /* padding-top: 80px; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    /* background-color: red; */
+
+
+}
+
+.div-colums {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.top-text {
+    text-align: center;
+    /* width: 60%; */
+    padding: 25px 0;
+    border-top: 7px solid #E1CFA2;
+    border-bottom: 7px solid #E1CFA2;
+    /* background-color: red; */
+    margin: 0 10vw;    
+
+
+}
+
+.top-text p {
+    margin: 0 5vw;   
+    font-size: 14px; 
+    margin-top: 25px;
+    text-align: left;
+    /* padding: 0 24px; */
+    /* background-color: blue; */
+
+}
+
+
+h1 {
+    text-transform: uppercase;
+    font-size: 4.3em;
+    text-align: center;
+    /* background-color: green; */
+    /* margin: 0 5vw;     */
+
+}
+
+.colorful span:nth-child(2n+1) { 
+    color: #E1CFA2; 
+}
+.colorful span:nth-child(2n+2) {
+    color: #E6E8E5;
+}
+
+
+.top-sns {
+    /* background-color: red; */
+}
+
+.top-sns ul {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: #E1CFA2;
+    /* margin-top: 80px; */
+
+}
+
+.top-sns ul li {
+    padding: 7px;
+}
+
+
+/* ======================top======================= */
+
+.about-conteiner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.about {
+    padding: 6rem 0 0 0 ;
+}
+
+
+.about-conteiner p {
+    /* width: 30vw;
+    display: flex;
+    /* margin: 0 30vw; */
+    /* padding: 10vh 20px 3vh 20px; */ 
+    max-width: 800px;
+    margin:0 auto;
+    padding: 0 5vw;
+
+}
+
+.section-title {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 7px;
+    background: #E1CFA2;
+}
+
+.h2text {
+    font-size: 3.3em;
+    text-transform: capitalize;
+    padding: 3vh 0;
+    position: relative;
+    z-index: 100;
+    
+}
+
+
+
+.about-image {
+    width: 350px;
+    height: 480px;
+}
+
+
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* .a {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 5vw;
+} */
+
+/* ===================News=========================== */
+
+.news {
+    margin: 10vh 0;
+}
+
+.news-container {
+    width: 100%;
+    margin: 15vh 0;
+}
+
+.news-container h2 {
+    font-size: 3.3em;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 5vh 0;
+}
+
+
+.news-contents {
+    display: flex;
+    justify-content: center;
+}
+
+.news-images {
+    padding: 0 12px;
+    margin: 5vh 0;
+}
+
+.news-image {
+    width: 320px;
+    height: 290px;
+
+}
+
+.news-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news-textbox {
+    padding: 15px;
+}
+
+.news-text {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.news-images p {
+    max-width: 300px;
+    /* margin: 0 auto; */
+    /* padding: 0 5vw; */
+}
+        /* ======================shop=========================== */
+
+.shop-container {
+    width: 100vw;
+    display: flex;
+    /* height: 100vh; */
+}
+
+.shop-image {
+    width: 60vw;
+    height: 550px;
+}
+
+.shop-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.shop-textbox {
+    text-align: center;
+    margin: 0 10vw;
+
+}
+
+
+.shop-text h2 {
+    margin: 20px 0;
+    font-size: 3.3em;
+    text-transform: capitalize;
+}
+
+.shop-text p {
+    text-align: left;
+    margin: 18px 0;
+}
+
+.shop-more {
+    font-size: 1.5em;
+    padding: 18px 0;
+}
+
+/* ====================photos=========================== */
+
+.photos {
+    width: 100%;
+    display: flex;
+}
+
+.photo-images {
+
+    display: flex;
+
+
+}
+
+.photo-image {
+    width: calc(100vw/5);
+    height: 200px;
+}
+
+.photo-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ====================contact=========================== */
+
+.contact-container {
+    width: 100vw;
+}
+
+.contact-container {
+    display: flex;
+}
+
+.contact-textbox {
+    text-align: center;
+    margin: 3vh 10vw;
+}
+
+.contact-textbox h2 {
+    margin: 20px 0;
+    font-size: 3.3em;
+    text-transform: capitalize;
+}
+
+.contact-textbox p {
+    text-align: left;
+    margin: 15px 0;
+}
+
+.contact-image {
+    width: 70vw;
+    height: 550px;
+}
+
+.contact-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    /* ======================top======================= */
+    
+    
+        .top-image {
+            /* display: none; */
+        }
+
+        .top {
+            position: relative;
+        }
+
+        .top-image {
+            width: 100%;        
+        }
+
+        .top-textbox {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    
+        /* .top { */
+            /* width: 100vh; */
+            /* margin: 0;
+            padding: 0;
+            background-image: url(/Users/miyakesaki/HTML/homework/Last/images/top-image.jpg);
+            background-size: cover;
+            background-position: center 0;
+        } */
+    
+    
+        /* ======================about======================= */
+    
+    
+        .about-conteiner p {
+            /* width: 100vw; */
+        }
+
+        /* ======================news=========================== */
+
+        .news-contents {
+            flex-wrap: wrap;
+        }
+
+        /* ======================shop========================== */
+
+        .shop-container {
+            flex-wrap: wrap;
+        }
+
+        .shop-image {
+            width: 100vw;
+            height: 180px;
+        }
+
+    }
